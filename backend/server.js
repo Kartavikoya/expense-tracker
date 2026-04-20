@@ -2,7 +2,7 @@ const express = require("express");
 const cors = require("cors");
 const mongoose = require("mongoose");
 
-const Expense = require("./models/Expense");
+const Expense = require("../backend/models/Expense");
 
 const app = express();
 app.use(cors());
@@ -90,6 +90,6 @@ app.get("/expenses", async (req, res) => {
 });
 
 /* Start Server */
-// app.listen(5000, () => {
-//   console.log("Server running on http://localhost:5000");
-// });
+app.listen(5000, () => {
+  console.log("Server running on http://localhost:5000");
+});
