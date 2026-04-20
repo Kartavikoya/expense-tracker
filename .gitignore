@@ -1,29 +1,9 @@
-# Node modules
 node_modules/
-
-# Logs
-logs
-*.log
-npm-debug.log*
-
-# Env files
 .env
-
-# OS files
-.DS_Store
-Thumbs.db
-
-# Build / dist
+.env.*
 dist/
 build/
-
-# IDE
-.vscode/
-.idea/
-
-# Database
-*.sqlite
-*.db
-
-# Misc
-coverage/   
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
